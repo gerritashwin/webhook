@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-init-sql: SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''))
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: none
+
+  application:
+    name: minchu-asset-locations-details
+  profiles:
+    active: dev
+
+
+server:
+  port: 9004
+debug: true

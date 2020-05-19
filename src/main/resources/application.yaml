@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: minchu-asset-locations-details
+  profiles:
+    active: dev
+
+
+server:
+  port: 9004
+debug: true
