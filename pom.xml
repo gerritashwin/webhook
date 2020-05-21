@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.minchu</groupId>
-	<artifactId>location-management</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>location-management</name>
+	<artifactId>commit</artifactId>
+	<version>0.webhook</version>
+	<name>commit</name>
 	<description>Docking Gateway can provide interaction between cloud server and application</description>
 
 		<properties>
