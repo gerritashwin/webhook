@@ -95,7 +95,7 @@
 						location-mgmt
 					</finalName>
 					<outputDirectory>
-						../../ubuntu
+						/../../ubuntu
 					</outputDirectory>
 				</configuration>
 			</plugin>
